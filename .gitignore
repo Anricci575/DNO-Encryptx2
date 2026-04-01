@@ -1,0 +1,33 @@
+# DNO-Encryptx - Archivos ignorados por seguridad
+
+# Bases de datos y llaves criptográficas (¡NUNCA SUBIR!)
+*.enc
+*.key
+passwords.enc
+salt.key
+secure_notes.enc
+
+# Preferencias y notificaciones locales
+preferences.json
+notifications.json
+categories.json
+
+# Bóveda de archivos físicos
+FileVault/
+decrypted/
+*_vault.png
+
+# Archivos de Python y sistema
+__pycache__/
+*.pyc
+.DS_Store
+
+# Archivos generados por el instalador
+INSTALL_MODE.txt
+STEALTH_INFO.txt
+run_stealth.py
+startup.bat
+startup_stealth.bat
+sincronizar_a_pc.bat
+instalar_dependencias.bat
+autorun.inf

@@ -1,0 +1,10 @@
+# Dependencias Core de DNO-Encryptx v2.0
+
+# Criptografía y encriptación de grado militar (Fernet/AES)
+cryptography>=41.0.0
+
+# Manejo del portapapeles para copiar contraseñas
+pyperclip>=1.8.2
+
+# Procesamiento de imágenes para el Visor Seguro RAM y Esteganografía
+Pillow>=10.0.0
